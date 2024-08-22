@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+ol.bold-numbers {
+  list-style-type: decimal;
+}
+
+ol.bold-numbers li {
+  position: relative;
+  padding-left: 2rem; /* Adjust padding as needed */
+}
+
+ol.bold-numbers li::marker {
+  font-weight: bold; /* Make list numbers bold */
+}
